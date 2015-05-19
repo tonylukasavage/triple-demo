@@ -21,7 +21,7 @@ for (var x = 0; x < xNum; x++) {
 			top: y * (size + (padding * 2)) + (padding * 2),
 			left: x * (size + (padding * 2)) + (padding * 2)
 		});
-		delayAdd(cell, (x + y) * 50);
+		delayAdd(cell, (x + y) * 150);
 	}
 }
 
